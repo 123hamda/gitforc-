@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+int first,second,sum,n;
+
+/*Here int first is used to achieve first number,int second is used to achieve second number and n is used to get a 
+two digit number and int sum is used to do a sum of two digit number */
+
+cout<<"Enter your two digit number";
+
+cin>>n;
+
+first=n/10;//to achive first number
+
+second=n%10;//to achieve second number
+
+sum=first+second;
+
+cout<<"Sum of two digit number is"<<sum<<endl;
+}
